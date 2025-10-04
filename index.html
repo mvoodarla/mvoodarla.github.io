@@ -9,45 +9,9 @@
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16:wght@400;700&display=swap" rel="stylesheet">
     
 <style>
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-Regular.woff2') format('woff2');
-        font-weight: 400;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-Light.woff2') format('woff2');
-        font-weight: 300;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-Medium.woff2') format('woff2');
-        font-weight: 500;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-SemiBold.woff2') format('woff2');
-        font-weight: 600;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-Bold.woff2') format('woff2');
-        font-weight: 700;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'Geist';
-        src: url('fonts/Geist-Black.woff2') format('woff2');
-        font-weight: 900;
-        font-style: normal;
-    }
 
     body { 
         line-height: 1.4;
@@ -55,10 +19,11 @@
         padding: 0 10px;
         margin: 50px auto;
         max-width: 650px;
-        background-color: #000000;
-        color: #ffffff;
-        font-family: 'Geist', sans-serif;
+        background-color: #ffffff;
+        color: #000000;
+        font-family: 'DotGothic16', monospace;
         font-weight: 400;
+        text-align: center;
     }
 
     #maincontent {
@@ -67,15 +32,26 @@
     }
 
     a {
-        color: #add8e6;
+        color: #0066cc;
     }
 
     a:hover {
-        color: #87ceeb;
+        color: #004499;
     }
 
     h2, h3 {
         font-weight: 700;
+    }
+
+    h2 {
+        font-size: 3em;
+        margin: 20px 0;
+    }
+
+    video {
+        margin: 0;
+        padding: 0;
+        display: block;
     }
 </style>
 	
@@ -84,31 +60,12 @@
 
 <body>
 <div id="maincontent" style="margin-top:70px">
-	<h2>Mokshith Voodarla</h2>
-
-	<p>I'm currently building <a href="https://sievedata.com/">Sieve</a>, a compute platform for video. I live in San Francisco, and I'm interested in machine learning, video, and robotics.</p>
+	<video width="100%" height="auto" autoplay muted loop playsinline>
+		<source src="videos/hero-sieve.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video><div style="border-bottom: 1px solid #cccccc;"></div>
 	
-	Previously:
-	<ul>
-		<li>I worked at <a href="https://scale.com/">Scale AI</a>, <a href="https://corporate.ford.com/operations/autonomous-vehicles.html">Ford Greenfield Labs</a>, and <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/">NVIDIA</a></li>
-		<li>I studied EECS at UC Berkeley</li>
-	</ul>
-
-	Some other things to know:
-	<ul>
-		<li>I grew up in Santa Clara, CA</li>
-		<li>I'm a Boston Celtics fan</li>
-		<li>Tres Leches cake from Safeway is the best dessert in the world</li>
-	</ul>
-
-	<h3>Connect with me</h3>
-	<ul>
-		<li><a href="https://www.linkedin.com/in/mokshith-voodarla/">LinkedIn</a></li>
-		<li><a href="https://twitter.com/mokshith_v">Twitter</a></li>
-		<li><a href="https://github.com/mvoodarla">GitHub</a></li>
-		<li><a href="https://scholar.google.com/citations?hl=en&user=MGc0yCMAAAAJ">Google Scholar</a></li>
-		<li><a href="mailto:mokshith@sievedata.com">Email</a></li>
-	</ul>
+	<h2>Mokshith Voodarla</h2>
 </div>
 </body>
 </html>
